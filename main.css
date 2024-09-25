@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  /* font-family: "Indie Flower", cursive; */
+  background: linear-gradient(135deg, red, blue);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.repos-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 100px auto;
+  background: #fefefe;
+  padding: 20px;
+  border-radius: 10px;
+}
+.repos-container .get-repos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.repos-container .get-repos input {
+  width: 100%;
+  height: 54px;
+  padding: 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 26px;
+  margin-right: 20px;
+}
+.repos-container .get-repos input:focus {
+  outline: none;
+}
+.repos-container .get-repos button {
+  width: 120px;
+  height: 54px;
+  border: none;
+  background: linear-gradient(135deg, #3925bced, #e03131);
+  color: white;
+  font-size: 16px;
+  border-radius: 26px;
+  cursor: pointer;
+}
+
+.repos-container .show-data {
+  text-align: start;
+  background-color: #e9e9e9;
+  font-size: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.repos-container .show-data span {
+  display: flex;
+  margin: 10px 0;
+  background: #d7d7d7;
+  padding: 10px;
+  border-radius: 10px;
+  color: #0e0e0e;
+  justify-content: space-between;
+}
+
+#visit {
+  padding: 5px 20px;
+  background: linear-gradient(135deg, #3925bced, #e03131);
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 26px;
+}
+#links-btn {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
